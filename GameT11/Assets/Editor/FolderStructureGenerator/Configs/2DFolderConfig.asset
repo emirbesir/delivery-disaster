@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2996c0aa4721a640b8da119a6c4194c, type: 3}
+  m_Name: 2DFolderConfig
+  m_EditorClassIdentifier: 
+  defaultProjectName: _Project
+  folderGroups:
+  - mainFolder: Art
+    subfolders:
+    - Animations
+    - Materials
+    - Shaders
+    - Sprites
+    - Tilesets
+    - Fonts
+    enabled: 1
+  - mainFolder: Audio
+    subfolders:
+    - Music
+    - SFX
+    enabled: 1
+  - mainFolder: Prefabs
+    subfolders:
+    - Characters
+    - Environment
+    - UI
+    enabled: 1
+  - mainFolder: Scenes
+    subfolders:
+    - Gameplay
+    - Menus
+    - Test
+    enabled: 1
+  - mainFolder: Scripts
+    subfolders:
+    - Core
+    - Gameplay
+    - UI
+    - Data
+    enabled: 1
+  - mainFolder: Settings
+    subfolders:
+    - Input
+    - Rendering
+    enabled: 1
+  - mainFolder: Tests
+    subfolders: []
+    enabled: 1
+  - mainFolder: Documentation
+    subfolders: []
+    enabled: 1
+  standaloneFolders:
+  - Plugins
+  - StreamingAssets
+  - Editor
+  - Resources
+  - ThirdParty
+  createGitKeepFiles: 1
