@@ -24,7 +24,7 @@ Toplantılar Google Meet ile yapıldı
 
 ### Sprint Board Updates
 
-[Sprint Board Updates gelecek]
+![Sprint 1 Board](screenshots/sprint1-board.png)
 
 <div align="center">
 
@@ -35,7 +35,7 @@ Toplantılar Google Meet ile yapıldı
 
 ### Ekran Görüntüleri
 
-[Ekran görüntüleri gelecek]
+Oyun oluşturulmaya daha başlanmadığı için oyundan ekran görüntüsü yok.
 
 ### Sprint Değerlendirmesi
 
