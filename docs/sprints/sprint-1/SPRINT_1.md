@@ -8,19 +8,19 @@
 
 ### Sprint Notları
 
-[Sprint notları gelecek]
+Fikrin belirlendiği ve yol haritasının çizildiği bir sprint oldu. Oyunun prototipi bir sonraki sprinte aktarıldı.
 
 ### Tahmin Edilen Tamamlanacak Puan
 
-[Tahmin edilen tamamlanacak puan gelecek]
+38.5
 
 ### Tahmin Mantığı
 
-[Tahmin mantığı gelecek]
+Acil görevler 4 puan, yüksek öncelikliler 3 puan, normal öncelikliler 1 puan, düşük öncelikliler 0.5 puan olarak hesaplandı.
 
 ### Daily Scrum
 
-[Daily Scrum kısmı gelecek]
+Toplantılar Google Meet ile yapıldı
 
 ### Sprint Board Updates
 
@@ -39,8 +39,10 @@
 
 ### Sprint Değerlendirmesi
 
-[Sprint değerlendirmeleri gelecek]
+Takım olarak oyunun teması, mekanikleri ve tarzı hakkında fikir birliği sağlandı, sonraki sprintlerin de planı yapıldı.
 
 ### Sprint Retrospektifi
 
-[Sprint retrospektifi gelecek]
+ - Tasarım ve Kodlama ekibi olarak ikiye bölünüldü.
+   - Kodlama: Emir, Anıl ve Hakan
+   - Tasarım: Aslıcan ve Özlem
