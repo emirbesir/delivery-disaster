@@ -28,8 +28,7 @@
 
 <div align="center">
 
-## Sprint Değerlendirme & Sprint Retrospektifi
-
+## Sprint Review & Sprint Retrospective
 
 </div>
 
@@ -37,10 +36,10 @@
 
 [Ekran görüntüleri gelecek]
 
-### Sprint Değerlendirmesi
+### Sprint Review
 
-[Sprint değerlendirmeleri gelecek]
+[Sprint review gelecek]
 
-### Sprint Retrospektifi
+### Sprint Retrospective
 
-[Sprint retrospektifi gelecek]
+[Sprint retrospective gelecek]
