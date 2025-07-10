@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6a8d62897d7d79f448b654df71f276de
+guid: aeaa4f6d6ecced14687a021378eacca8
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Kenney Future
+  - Bangers
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
