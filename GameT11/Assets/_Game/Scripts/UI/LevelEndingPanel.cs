@@ -27,8 +27,8 @@ public class LevelEndingPanel : MonoBehaviour
     private float levelPassScore;
 
 
-    private const string winText = "TESLİMAT BAŞARILI";
-    private const string loseText = "TESLİMAT BAŞARISIZ";
+    private const string WIN_TEXT = "TESLİMAT BAŞARILI";
+    private const string LOSE_TEXT = "TESLİMAT BAŞARISIZ";
 
 
     public void InitializeEndingPanel(FloatVariable levelPassScore)
@@ -44,12 +44,12 @@ public class LevelEndingPanel : MonoBehaviour
     {
         if (playerScore.Value >= levelPassScore)
         {
-            titleText.text = winText;
+            titleText.text = WIN_TEXT;
             backgroundImage.sprite = winPanelSprite;
         }
         else
         {
-            titleText.text = loseText;
+            titleText.text = LOSE_TEXT;
             backgroundImage.sprite = losePanelSprite;
         }
     }
