@@ -1092,6 +1092,17 @@ Transform:
   - {fileID: 1346143619}
   m_Father: {fileID: 1448264472}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1795843911 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4748235982996890902, guid: c2c121d5acb1fc448a4f0ab2b4e550d2, type: 3}
+  m_PrefabInstance: {fileID: 3898632275243830505}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1931623990 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7616554125971721227, guid: c2c121d5acb1fc448a4f0ab2b4e550d2, type: 3}
@@ -1469,6 +1480,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7771293194509393145, guid: c2c121d5acb1fc448a4f0ab2b4e550d2, type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1795843911}
+    - target: {fileID: 7771293194509393145, guid: c2c121d5acb1fc448a4f0ab2b4e550d2, type: 3}
+      propertyPath: playerScore
+      value: 
+      objectReference: {fileID: 11400000, guid: 30e6688dee47a914fa6a3187cea756c4, type: 2}
     - target: {fileID: 8722270857740520543, guid: c2c121d5acb1fc448a4f0ab2b4e550d2, type: 3}
       propertyPath: m_Name
       value: Gameplay Canvas

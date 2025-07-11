@@ -24,15 +24,17 @@ public class LevelEndingPanel : MonoBehaviour
     [SerializeField] private Sprite emptyStarSprite;
 
 
+    private float levelPassScore;
+
+
     private const string winText = "TESLİMAT BAŞARILI";
     private const string loseText = "TESLİMAT BAŞARISIZ";
 
-    private float levelPassScore;
 
     public void InitializeEndingPanel(FloatVariable levelPassScore)
     {
         this.levelPassScore = levelPassScore.Value;
-        
+
         UpdateBasePanel();
         UpdateScoreText();
         UpdateStarDisplay();

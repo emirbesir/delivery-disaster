@@ -8,8 +8,10 @@ public class CountdownSlider : MonoBehaviour
 
     [Header("Duration")]
     [SerializeField] private FloatReference countdownDuration;
+
     [Header("Event")]
     [SerializeField] private UnityEvent countdownCompleteEvent;
+
 
     private float countdownStartTime;
     private Slider slider;
