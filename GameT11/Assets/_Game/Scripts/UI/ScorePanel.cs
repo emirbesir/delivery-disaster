@@ -12,7 +12,7 @@ public class ScorePanel : MonoBehaviour
     [SerializeField] private FloatVariable playerScore;
 
 
-    private const string SCORE_BASE_TEXT = "Skor: ";
+    private const string SCORE_BASE_TEXT = "Skor: %";
 
 
     private void Update()

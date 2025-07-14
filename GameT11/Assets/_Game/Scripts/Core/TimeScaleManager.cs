@@ -3,6 +3,7 @@ using UnityEngine;
 public class TimeScaleManager : MonoBehaviour
 {
 
+
     public void PauseGame()
     {
         Time.timeScale = 0f;

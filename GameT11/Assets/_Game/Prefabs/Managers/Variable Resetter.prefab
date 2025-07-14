@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a40133cb30040f47a3941d1924c9d87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeElapsed: {fileID: 11400000, guid: 30e6688dee47a914fa6a3187cea756c4, type: 2}
-  playerScore: {fileID: 11400000, guid: 375b5ec438a6fc243910e76ee0ff2e82, type: 2}
+  playerScore: {fileID: 11400000, guid: 30e6688dee47a914fa6a3187cea756c4, type: 2}
+  timeElapsed: {fileID: 11400000, guid: 375b5ec438a6fc243910e76ee0ff2e82, type: 2}

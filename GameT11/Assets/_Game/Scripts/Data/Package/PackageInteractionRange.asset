@@ -10,7 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3efd1687fd9717249b693730d389d034, type: 3}
-  m_Name: Level2ScoreNeeded
+  m_Name: PackageInteractionRange
   m_EditorClassIdentifier: 
-  DeveloperDescription: "2. seviyeyi ge\xE7mek i\xE7in gerekli skor."
-  Value: 1500
+  DeveloperDescription: "Paket ile etkile\u015Fime ge\xE7ebilmek i\xE7in gerekli
+    minimum menzil"
+  Value: 2

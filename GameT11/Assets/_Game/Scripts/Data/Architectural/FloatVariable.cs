@@ -3,11 +3,15 @@ using UnityEngine;
 [CreateAssetMenu]
 public class FloatVariable : ScriptableObject
 {
+    
+
 #if UNITY_EDITOR
-        [Multiline]
+    [Multiline]
         public string DeveloperDescription = "";
 #endif
     public float Value;
+
+
 
     public void SetValue(float value)
     {

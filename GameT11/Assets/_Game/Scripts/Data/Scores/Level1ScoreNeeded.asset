@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3efd1687fd9717249b693730d389d034, type: 3}
-  m_Name: PlayerScore
+  m_Name: Level1ScoreNeeded
   m_EditorClassIdentifier: 
-  DeveloperDescription: "Oyuncunun o seviyedeki skoru, her seviyede s\u0131f\u0131rlanacak"
-  Value: 100
+  DeveloperDescription: "1. seviyeyi ge\xE7mek i\xE7in gerekli skor."
+  Value: 40
