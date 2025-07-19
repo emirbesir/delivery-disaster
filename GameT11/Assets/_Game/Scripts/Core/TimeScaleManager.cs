@@ -2,7 +2,10 @@ using UnityEngine;
 
 public class TimeScaleManager : MonoBehaviour
 {
-
+    private void Start()
+    {
+        UnpauseGame();
+    }
 
     public void PauseGame()
     {
