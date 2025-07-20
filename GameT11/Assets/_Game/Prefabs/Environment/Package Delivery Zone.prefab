@@ -67,6 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 583d4fd8a3d88094ebf3298dc9180fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deliveryZoneMaterial: {fileID: 2100000, guid: 2ff78e444ec17e24680a5edf2bb38cdd, type: 2}
   packageDeliveryStartEvent:
     m_PersistentCalls:
       m_Calls:

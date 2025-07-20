@@ -4,10 +4,13 @@ using UnityEngine.InputSystem;
 [RequireComponent(typeof(Rigidbody))]
 public class RobotController : MonoBehaviour
 {
+
+
     [SerializeField] private FloatVariable moveSpeed;
 
     private Rigidbody rb;
     private Vector2 moveInput;
+
 
     private void Awake()
     {
@@ -31,6 +34,7 @@ public class RobotController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        
         Vector3 moveDir = new Vector3(moveInput.x, 0f, moveInput.y).normalized;
 
         rb.linearVelocity = moveDir * moveSpeed.Value + Vector3.up * rb.linearVelocity.y;
