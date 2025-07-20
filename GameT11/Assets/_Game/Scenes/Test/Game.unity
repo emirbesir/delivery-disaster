@@ -1118,6 +1118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building F Deliverable
       objectReference: {fileID: 0}
+    - target: {fileID: 722665227620322958, guid: f329ac5672685764a8aa5e3b646da85b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3898,7 +3902,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314605866780242002, guid: d6b3d30ded75c2e449c7aef4450cb2e0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -3.2
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 7314605866780242002, guid: d6b3d30ded75c2e449c7aef4450cb2e0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3906,7 +3910,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7314605866780242002, guid: d6b3d30ded75c2e449c7aef4450cb2e0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.62
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 7314605866780242002, guid: d6b3d30ded75c2e449c7aef4450cb2e0, type: 3}
       propertyPath: m_LocalRotation.w

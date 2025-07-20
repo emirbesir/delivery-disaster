@@ -20,12 +20,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Toon Suburb Map
-  m_Shader: {fileID: 4800000, guid: 29a97fa426be48d459ed33cee3acdb3a, type: 3}
+  m_Name: Toon Suburban Colormap
+  m_Shader: {fileID: 4800000, guid: 53655f224c8bed645859400742e44ec4, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords:
+  - _USESCREENSPACE_ON
   - _ZWRITE_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -114,6 +115,10 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0
     - _GlossyReflections: 1
+    - _HalftoneAngle: 45
+    - _HalftoneScale: 20
+    - _HalftoneSoftness: 0.1
+    - _HighlightHalftoneIntensity: 0.6
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
@@ -125,10 +130,11 @@ Material:
     - _RimPower: 5
     - _RimStep: 0.65
     - _RimStepSmooth: 0.4
-    - _ShadowSoftness: 0.1
+    - _ShadowHalftoneIntensity: 0.8
+    - _ShadowSoftness: 0.3
     - _ShadowStep: 0.5
     - _ShadowStepSmooth: 0.04
-    - _ShadowThreshold: 0.5
+    - _ShadowThreshold: 0.45
     - _Shininess: 62.7
     - _Smoothness: 0
     - _SmoothnessTextureChannel: 0
@@ -141,6 +147,7 @@ Material:
     - _SrcBlendAlpha: 1
     - _Surface: 0
     - _UVSec: 0
+    - _UseScreenSpace: 1
     - _WorkflowMode: 1
     - _XRMotionVectorsPass: 1
     - _ZWrite: 1
