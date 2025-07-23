@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 
 public class TrainMovement : MonoBehaviour
 {
@@ -9,10 +10,20 @@ public class TrainMovement : MonoBehaviour
     [SerializeField] private Transform startPoint;
     [SerializeField] private Transform endPoint;
 
+    [Header("Train Delay Settings")]
+    [SerializeField] private float delay = 0f;
+
     private Vector3 moveDirection;
 
     void Start()
-    {   
+    {
+        StartCoroutine(InitializeTrainMovement());
+    }
+
+    private IEnumerator InitializeTrainMovement()
+    {
+        yield return new WaitForSeconds(delay);
+
         transform.position = startPoint.position;
         moveDirection = (endPoint.position - startPoint.position).normalized;
     }
@@ -21,7 +32,7 @@ public class TrainMovement : MonoBehaviour
     {
         transform.Translate(moveDirection * trainSpeed.Value * Time.deltaTime);
 
-        if (Vector3.Distance(transform.position, endPoint.position) < 0.1f)
+        if (Vector3.Distance(transform.position, endPoint.position) < 1f)
         {
             transform.position = startPoint.position;
         }

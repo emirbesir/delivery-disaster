@@ -453,6 +453,7 @@ MonoBehaviour:
     Variable: {fileID: 11400000, guid: f91c5a6e015d5c14dbf0241dc2d9c08e, type: 2}
   startPoint: {fileID: 6527665085817409536}
   endPoint: {fileID: 6563690010067431419}
+  delay: 0
 --- !u!1 &6212593519549452000
 GameObject:
   m_ObjectHideFlags: 0
