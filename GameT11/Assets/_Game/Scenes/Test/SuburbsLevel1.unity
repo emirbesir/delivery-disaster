@@ -1965,39 +1965,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 693659560224177193, guid: fb339c537f384854f981924266a4fec6, type: 3}
   m_PrefabInstance: {fileID: 1205448375}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1247594800 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3978036058003646201, guid: f94be0bb3fbbd3443b9873afce152dc5, type: 3}
-  m_PrefabInstance: {fileID: 4004547387910883024}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1247594804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1247594800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 359c2c8f8f1797c4da978532cca383cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: {fileID: 11400000, guid: 22b190cbc509c1e428b4c9b268e49fc3, type: 2}
-  Response:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 4004547387910883026}
-        m_TargetAssemblyTypeName: TimeScaleManager, Assembly-CSharp
-        m_MethodName: PauseGame
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1001 &1251481628
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3863,27 +3830,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3978036058003646201, guid: f94be0bb3fbbd3443b9873afce152dc5, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1247594804}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f94be0bb3fbbd3443b9873afce152dc5, type: 3}
 --- !u!4 &4004547387910883025 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5538021101989960852, guid: f94be0bb3fbbd3443b9873afce152dc5, type: 3}
   m_PrefabInstance: {fileID: 4004547387910883024}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &4004547387910883026 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6086698159222670281, guid: f94be0bb3fbbd3443b9873afce152dc5, type: 3}
-  m_PrefabInstance: {fileID: 4004547387910883024}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39ae33a86fcba834ebb14855ededd42c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &4068725689735165223
 PrefabInstance:
   m_ObjectHideFlags: 0

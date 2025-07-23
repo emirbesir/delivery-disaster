@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 5454707389856866892}
   - component: {fileID: 1706082859523142192}
   - component: {fileID: 2033674728238976554}
+  - component: {fileID: 8847208632593264752}
   m_Layer: 0
   m_Name: Event Listener
   m_TagString: Untagged
@@ -125,6 +126,34 @@ MonoBehaviour:
       - m_Target: {fileID: 6086698159222670281}
         m_TargetAssemblyTypeName: TimeScaleManager, Assembly-CSharp
         m_MethodName: UnpauseGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8847208632593264752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3978036058003646201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359c2c8f8f1797c4da978532cca383cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: {fileID: 11400000, guid: 22b190cbc509c1e428b4c9b268e49fc3, type: 2}
+  Response:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6086698159222670281}
+        m_TargetAssemblyTypeName: TimeScaleManager, Assembly-CSharp
+        m_MethodName: PauseGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
