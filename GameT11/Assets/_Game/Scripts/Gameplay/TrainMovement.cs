@@ -3,6 +3,8 @@ using System.Collections;
 
 public class TrainMovement : MonoBehaviour
 {
+
+
     [Header("Train Movement Settings")]
     [SerializeField] private FloatReference trainSpeed;
 
@@ -13,7 +15,9 @@ public class TrainMovement : MonoBehaviour
     [Header("Train Delay Settings")]
     [SerializeField] private float delay = 0f;
 
+
     private Vector3 moveDirection;
+
 
     void Start()
     {

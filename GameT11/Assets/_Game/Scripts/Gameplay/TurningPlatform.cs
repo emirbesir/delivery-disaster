@@ -3,9 +3,12 @@ using UnityEngine;
 public class TurningPlatform : MonoBehaviour
 {
 
-    [SerializeField] protected Vector3 rotationVector;
 
-    protected virtual void Update()
+    [Header("Turning Platform Settings")]
+    [SerializeField] private Vector3 rotationVector;
+
+
+    private void Update()
     {
         transform.Rotate(rotationVector);
     }
