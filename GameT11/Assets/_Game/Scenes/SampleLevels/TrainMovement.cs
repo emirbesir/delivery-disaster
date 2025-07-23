@@ -2,28 +2,28 @@ using UnityEngine;
 
 public class TrainMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 0.0f;
-    [SerializeField] private Transform startPoint = null;
-    [SerializeField]private Transform endPoint = null;
+    [Header("Train Movement Settings")]
+    [SerializeField] private FloatReference trainSpeed;
 
-    private Rigidbody trainRb;
+    [Header("Train Path Settings")]
+    [SerializeField] private Transform startPoint;
+    [SerializeField] private Transform endPoint;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    private Vector3 moveDirection;
+
     void Start()
-    {
-        trainRb = GetComponent<Rigidbody>();
-        trainRb.position = startPoint.position;
+    {   
+        transform.position = startPoint.position;
+        moveDirection = (endPoint.position - startPoint.position).normalized;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        Vector3 newPosition = trainRb.position + transform.right * speed * Time.deltaTime;
-        trainRb.MovePosition(newPosition);
+        transform.Translate(moveDirection * trainSpeed.Value * Time.deltaTime);
 
-        if (Vector3.Distance(trainRb.position, endPoint.position) < 1.0f)
+        if (Vector3.Distance(transform.position, endPoint.position) < 0.1f)
         {
-            trainRb.position = startPoint.position;
+            transform.position = startPoint.position;
         }
     }
 }
