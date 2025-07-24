@@ -47,7 +47,7 @@ public class PackageHandler : MonoBehaviour
             packageRb.isKinematic = true;
     }
 
-    private void DropPackage()
+    public void DropPackage()
     {
         if (currentPackage == null) return;
 
