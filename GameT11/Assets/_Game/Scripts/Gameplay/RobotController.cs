@@ -5,9 +5,10 @@ using UnityEngine.InputSystem;
 public class RobotController : MonoBehaviour
 {
 
-
+    [Header("Movement Settings")]
     [SerializeField] private FloatVariable moveSpeed;
 
+    
     private Rigidbody rb;
     private Vector2 moveInput;
 

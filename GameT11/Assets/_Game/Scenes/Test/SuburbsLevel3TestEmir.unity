@@ -6009,6 +6009,63 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8412023442598398358, guid: 3040f95137e77d54a90c82d9bb4ccee5, type: 3}
   m_PrefabInstance: {fileID: 398519233}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1437591471
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3076112919357557684, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
+      propertyPath: m_Name
+      value: RCCar Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.0825033
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2855549
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
 --- !u!1001 &1448233601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10264,63 +10321,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6971729222801169300, guid: d2f2ab08cce8ecd439cfba858881d191, type: 3}
   m_PrefabInstance: {fileID: 5080481849651916026}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &8238797648776067194
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3076112919357557684, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
-      propertyPath: m_Name
-      value: RCCar Obstacle
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -16
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3886215036128720915, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 09f8359c54b15ab4e81772aaebeddf20, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -10329,4 +10329,4 @@ SceneRoots:
   - {fileID: 69199151}
   - {fileID: 401519070}
   - {fileID: 1703781197}
-  - {fileID: 8238797648776067194}
+  - {fileID: 1437591471}
