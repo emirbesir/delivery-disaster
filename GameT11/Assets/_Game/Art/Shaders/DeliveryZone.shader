@@ -1,4 +1,4 @@
-Shader "Custom/URP/DeliveryZone"
+Shader "Emir/URP/DeliveryZone"
 {
     Properties
     {
