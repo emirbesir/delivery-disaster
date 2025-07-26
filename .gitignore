@@ -1,0 +1,12 @@
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Uu]serSettings/
+/[Ll]ogs/
+/*.csproj
+*.sln
+*.user
+*.tif
+*.png
+*.asset
