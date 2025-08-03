@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Game/Scenes/Test/SuburbsLevel1.unity
     guid: 7597e42f12147594ab7223172188b4d0
+  - enabled: 1
+    path: Assets/_Game/Scenes/Test/SuburbsLevel2.unity
+    guid: 4693a3d7bee731542822d7170cded2ea
+  - enabled: 1
+    path: Assets/_Game/Scenes/Test/SuburbsLevel3.unity
+    guid: 528ed177aca6c134a9829833cceec566
+  - enabled: 1
+    path: Assets/_Game/Scenes/Test/SuburbsLevel4.unity
+    guid: 97a4e8a6d8f08ea4dbb76b442dcc499a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
