@@ -8,38 +8,41 @@
 
 ### Sprint Notları
 
-[Sprint notları gelecek]
+- Bu sprintte takım üyeleri çok az miktarda aktifti ve planlanan görevlerin çoğu tamamlanamadı.
+- Planlanan puan 34.25 iken sadece 8.5 puan tamamlandı.
 
 ### Tahmin Edilen Tamamlanacak Puan
 
-[Tahmin edilen tamamlanacak puan gelecek]
+34.25
 
 ### Tahmin Mantığı
 
-[Tahmin mantığı gelecek]
+Acil görevler 4 puan, yüksek öncelikliler 3 puan, normal öncelikliler 1 puan, düşük öncelikliler 0.5 puan olarak hesaplandı.
 
 ### Daily Scrum
 
-[Daily Scrum kısmı gelecek]
+Toplantılar düzenli olarak yapılamadı. Whatsapp'ta da iletişim çok azdı.
+
+[Whatsapp Konuşmaları](WHATSAPP_TALKS.md)
 
 ### Sprint Board Updates
 
-[Sprint Board Updates gelecek]
+![Sprint 3 Board](screenshots/project-management/sprint3-board.png)
 
 <div align="center">
 
-## Sprint Review & Sprint Retrospective
+## Sprint Değerlendirme & Sprint Retrospektifi
 
 </div>
 
 ### Ekran Görüntüleri
 
-[Ekran görüntüleri gelecek]
+[Geliştirme Ekran Görüntüleri](DEVELOPMENT_SCREENSHOTS.md)
 
 ### Sprint Review
 
-[Sprint review gelecek]
+- Yapılmadı
 
 ### Sprint Retrospective
 
-[Sprint retrospective gelecek]
+- Yapılmadı
